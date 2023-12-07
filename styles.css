@@ -1,0 +1,174 @@
+:root{
+    --Red: hsl(1, 90%, 64%);
+    --Blue: hsl(219, 85%, 26%);
+    --White: hsl(0, 0%, 100%);
+    --VeryLightGrayishBlue: hsl(210, 60%, 98%);
+    --LightGrayishBlue1: hsl(211, 68%, 94%);
+    --LightGrayishBlue2: hsl(205, 33%, 90%);
+    --GrayishBlue: hsl(219, 14%, 63%);
+    --DarkGrayishBlue: hsl(219, 12%, 42%);
+    --VeryDarkBlue: hsl(224, 21%, 14%);
+}
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+    line-height: 1.2;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+a:visited{
+    color: var(--DarkGrayishBlue);
+}
+
+a:link{
+    color: var(--Blue)
+}
+
+p{
+    margin-bottom: 10px;
+    color: var(--DarkGrayishBlue);
+    font-size: 14px;
+}
+
+img{
+    width: 40px;
+}
+main{
+    padding: 1em;
+}
+
+/* Header */
+.notifications-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    gap: 3.5em;
+}
+
+h1{
+    font-size: 1.4rem;
+}
+
+.mark-as-all-read{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    color: var(--DarkGrayishBlue);
+    font-weight: 800;
+}
+
+.mark-as-all-read:hover{
+    color: var(--Blue)
+}
+
+.number-of-notification{
+    padding: 0.1em 0.4em;
+    background-color: var(--Blue);
+    color: var(--White);
+    border-radius: 4px;
+}
+
+/* Notification Section */
+.notification-post{
+    padding: 1em;
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    background-color: var(--LightGrayishBlue1);
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+.notification-post:not(:last-child){
+    margin-bottom: 1em;
+}
+
+.time-of-notification, .notification-message{
+    color: var(--GrayishBlue);
+}
+
+.notification-message{
+    padding: 1em;
+    border: 1px solid var(--GrayishBlue);
+    background: var(--White);
+    border-radius: 5px;
+}
+
+a.user-name{
+    color: var(--VeryDarkBlue);
+}
+
+.chess-comment-container{
+    display: flex;
+}
+
+.unread-mark{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--Red);
+    transform: translateX(10px);
+}
+
+.read{
+    background: var(--White);
+}
+
+/* Attribution */
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+/* Media Query */
+@media screen and (min-width: 481px) and (max-width: 768px)  {
+    main{
+        max-width: 480px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    main{
+        max-width: 500px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main{
+        max-width: 700px;
+    }
+}
