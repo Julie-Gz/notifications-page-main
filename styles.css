@@ -112,7 +112,7 @@ h1{
     cursor: pointer;
 }
 
-.user-name{
+a.user-name{
     color: var(--VeryDarkBlue);
 }
 
