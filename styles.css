@@ -62,7 +62,10 @@ img{
     width: 40px;
 }
 main{
+    margin: 2em 0;
     padding: 1em;
+    background-color: var(--White);
+    border-radius: 10px;
 }
 
 /* Header */
