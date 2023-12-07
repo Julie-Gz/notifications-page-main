@@ -112,6 +112,10 @@ h1{
     cursor: pointer;
 }
 
+.user-name{
+    color: var(--VeryDarkBlue);
+}
+
 .notification-post:not(:last-child){
     margin-bottom: 1em;
 }

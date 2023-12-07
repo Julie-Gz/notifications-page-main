@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/mobile-first-approach-html-css-javascript-zZLsJ-El2o)
-- Live Site URL: (https://julie-gz.github.io/notifications-page-main/)
+- Solution URL: [Solution] (https://www.frontendmentor.io/solutions/mobile-first-approach-html-css-javascript-zZLsJ-El2o)
+- Live Site URL: [Live-Site] (https://julie-gz.github.io/notifications-page-main/)
 
 ### Built with
 
