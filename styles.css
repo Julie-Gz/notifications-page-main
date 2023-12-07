@@ -123,10 +123,6 @@ h1{
     border-radius: 5px;
 }
 
-a.user-name{
-    color: var(--VeryDarkBlue);
-}
-
 .chess-comment-container{
     display: flex;
 }
