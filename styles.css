@@ -146,8 +146,11 @@ h1{
 
 /* Attribution */
 .attribution { 
-  font-size: 11px; 
   text-align: center; 
+}
+
+.attribution p{
+    font-size: 11px; 
 }
 
 .attribution a { 
